@@ -1,2 +1,4 @@
-export * from './lib/button/button';
-export * from './lib/ui';
+import $Button from './lib/button/button';
+import Ui from './lib/ui';
+
+export { $Button, Ui };
