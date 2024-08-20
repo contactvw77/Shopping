@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@tsmicrosystems/tsm-ui": ["libs/tsm-ui/src/index.ts"],
       "@tsmicrosystems/ui": ["libs/ui/src/index.ts"]
     }
   },

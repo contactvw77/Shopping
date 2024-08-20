@@ -1,7 +1,8 @@
 'use client';
 
 import styled from 'styled-components';
-import { $Button, Ui } from '@tsmicrosystems/ui';
+
+import { $Button, TsmUi } from '@tsmicrosystems/tsm-ui';
 
 const StyledPage = styled.div`
   .page {
@@ -20,7 +21,7 @@ export default function Index() {
         <div className="container">
           <div id="welcome">
             <$Button label={'Custom Button'} color={'primary'} />
-            <Ui />
+            <TsmUi />
             <h1>
               <span> Hello there, </span>
               Welcome Shopping 👋
