@@ -1,15 +1,17 @@
-import styled from 'styled-components';
+import React from 'react';
+import { StyledButton } from './button.styles';
 
-const StyledButton = styled.div`
-  color: green;
-`;
-
-export function Button() {
-  return (
-    <StyledButton>
-      <h1>Welcome to Button!</h1>
-    </StyledButton>
-  );
+interface ButtonProps {
+  label: string;
+  color: string;
 }
 
-export default Button;
+const $Button: React.FC<ButtonProps> = ({ label, color }) => {
+  return (
+    <div>
+      <StyledButton color={color}>{label}</StyledButton>
+    </div>
+  );
+};
+
+export default $Button;
