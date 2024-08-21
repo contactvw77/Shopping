@@ -1,6 +1,14 @@
 {
   "name": "@tsmicrosystems/tsm-ui",
+  "description": "Component Library developed using React and Storybook",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Vishwajeet Wadhwa"
+  },
+  "license": "GPL-3.0-only",
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {
