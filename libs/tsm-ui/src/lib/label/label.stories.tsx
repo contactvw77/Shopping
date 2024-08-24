@@ -6,6 +6,7 @@ import { expect } from '@storybook/jest';
 
 const meta: Meta<typeof $Label> = {
   component: $Label,
+  title: 'Design System/Atoms/Label',
 };
 export default meta;
 type Story = StoryObj<typeof $Label>;

@@ -31,6 +31,7 @@ import { expect } from '@storybook/jest';
 
 const meta: Meta<typeof $Button> = {
   component: $Button,
+  title: 'Design System/Atoms/Button',
   argTypes: {
     color: {
       control: 'radio',

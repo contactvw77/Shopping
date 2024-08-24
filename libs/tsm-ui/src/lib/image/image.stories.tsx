@@ -6,6 +6,7 @@ import { expect } from '@storybook/jest';
 
 const meta: Meta<typeof $Image> = {
   component: $Image,
+  title: 'Design System/Atoms/Image',
   argTypes: {
     shape: {
       control: 'radio',
