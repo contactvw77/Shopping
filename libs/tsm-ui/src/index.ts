@@ -6,4 +6,6 @@ import $Button from './lib/button/button';
 import TsmUi from './lib/tsm-ui';
 import $Label from './lib/label/label';
 
+export * from './lib/image/image';
+
 export { $Button, TsmUi, $Label };
