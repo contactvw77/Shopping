@@ -16,6 +16,9 @@ const meta: Meta<typeof $Image> = {
       control: 'radio',
       options: ['xs', 'sm', 'md', 'lg', 'xl', '2xl'],
     },
+    src: {
+      control: 'file',
+    },
   },
 };
 export default meta;
@@ -25,6 +28,9 @@ export const Primary = {
   name: 'Image',
   args: {
     alt: 'Alt text',
+    shape: 'round', //default value
+    size: 'xs', //default value
+    src: 'https://picsum.photos/seed/picsum/200/300', //default value
   },
 };
 
