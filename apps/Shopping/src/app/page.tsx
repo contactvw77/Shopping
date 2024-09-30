@@ -1,31 +1,40 @@
 import React from 'react';
 
-const Index = () => {
-  return (
-    <div className="container">
-      <div className="header">
-        <header>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-          </ul>
-        </header>
-      </div>
-      <div className="content-container">Content Container</div>
-      <div className="footer">Footer</div>
-    </div>
-  );
-};
+// const Index = () => {
+//   return (
+//     <div className="container">
+//       <div className="header">
+//         <header>
+//           <ul>
+//             <li>Fresh</li>
+//             <li>Today's Deals</li>
+//             <li>Books</li>
+//             <li>Amazon miniTV</li>
+//             <li>Sell</li>
+//             <li>Gift Cards</li>
+//             <li>Gift Ideas</li>
+//             <li>Amazon Pay</li>
+//             <li>Buy Again</li>
+//             <li>Amazon Business</li>
+//             <li>Browsing History</li>
+//           </ul>
+//         </header>
+//       </div>
+//       <div className="content-container">Content Container</div>
+//       <div className="footer">Footer</div>
+//     </div>
+//   );
+// };
 
-export default Index;
+// export default Index;
 
 // //Server Component
-// import PostsList from './posts.list';
+import PostsList from './posts.list';
 
-// export default async function Index() {
-//   console.log('Server Component');
-//   return <PostsList />;
-// }
+export default async function Index() {
+  console.log('Server Component');
+  return <PostsList />;
+}
 
 //Client Component
 // 'use client';

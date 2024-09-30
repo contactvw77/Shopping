@@ -3,7 +3,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
-import { $Button, TsmUi } from '@tsmicrosystems/tsm-ui';
+import { $Button, TsmUi, MuiButton } from '@tsmicrosystems/tsm-ui';
 import { sendAction } from './actions';
 
 const StyledPage = styled.div`
@@ -17,6 +17,7 @@ const PostsList: React.FC = () => {
       <div>
         <h1>Client Component</h1>
         <$Button label={'Custom Button'} color={'primary'} />
+        <MuiButton />
         <TsmUi />
       </div>
 
